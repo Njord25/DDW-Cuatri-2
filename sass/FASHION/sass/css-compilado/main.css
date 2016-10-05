@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+/*General*/
+body {
+  font-family: arial, sans-serif; }
+
+p {
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000;
+  margin-left: 5px;
+  margin-top: 5px; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+.ref {
+  color: blue;
+  text-decoration: underline;
+  margin-left: 5px; }
+
+h2 {
+  font-size: 18px;
+  text-transform: uppercase; }
+
+h3 {
+  font-size: 12px;
+  color: #6DC4FE;
+  margin-left: 10px;
+  margin-top: 5px; }
+
+/*Container*/
+.wrapper {
+  width: 970px;
+  margin: 0 auto;
+  position: relative; 
+}
+
+/*Helper clases*/
+.clearFix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearFix {
+  display: block; }
+
+/*-------------------
+      Header
+------------------*/
+.header {
+  margin-top: 21px; }
+
+.header img {
+  float: left; }
+
+/*Menu*/
+.menu {
+  position: absolute;
+  top: 74px;
+  left: 400px;
+  list-style: none; }
+
+.menu li {
+  display: inline;
+  margin-left: 45px; }
+
+.menu li:first-child {
+  margin-left: 0; }
+
+.menu a {
+  font-size: 12px;
+  font-weight: bold; }
+
+.menu a:hover {
+  color: #D4AC0D; }
+
+/*-----------------
+    MainContent
+-----------------*/
+.mainContent {
+  clear: both; }
+
+/*slider*/
+.operative {
+  width: 310px;
+  height: 145px;
+  background-color: white;
+  position: absolute;
+  top: 270px;
+  right: 70px;}
+
+.box {
+  width: 320px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 10px; }
+
+.box:first-child {
+  margin-left: 0; }
+
+/*# sourceMappingURL=main.css.map */

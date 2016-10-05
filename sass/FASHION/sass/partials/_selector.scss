@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+/*General*/
+body{
+  font-family: $font;
+}
+
+p{
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #000000;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: $textBlanc;
+}
+
+
+
+h2{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+h3{
+  font-size: 12px;
+  color: #6DC4FE;
+  margin-left: 10px;
+  margin-top: 5px;
+}
