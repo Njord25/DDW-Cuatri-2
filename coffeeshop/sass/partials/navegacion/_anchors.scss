@@ -1,0 +1,28 @@
+a {
+	text-decoration: none;
+}
+ul {
+	display: flex;
+}
+.redondo {
+	border-radius: 34px 0px 0px 34px;
+}
+.redondo1 {
+	border-radius: 0px 34px 34px 0px;
+}
+.header li {
+	display: inline;
+	list-style: none;
+    font: 10px $primary-font;
+}
+.infoHeader a{
+	color: $secondary-font-color;
+}
+.menu a{
+	color: $tertiary-font-color;
+}
+.infoSalud a {
+	color: $primary-color;
+	font-size: 12px;
+}
+

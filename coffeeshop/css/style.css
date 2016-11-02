@@ -1,0 +1,160 @@
+.wrapper {
+  width: 1280px;
+  margin: 0 auto; }
+
+.header {
+  border-top: 10px solid #664735;
+  background-color: #e8e8e8;
+  height: 426px; }
+
+.infoHeader {
+  width: 415px;
+  height: 115px;
+  position: relative;
+  left: 206px; }
+
+.infoSalud {
+  text-align: center;
+  width: 336px;
+  display: inline-block;
+  margin: 106px 0px 140px 73px; }
+
+.infoU {
+  background-color: #664735;
+  width: 630px;
+  height: 411px;
+  position: relative;
+  left: 649px;
+  bottom: 415px; }
+
+.infoU h3 {
+  margin: 0px 55px; }
+
+.infoU p {
+  color: #fff;
+  font: 16px Myriad Pro, italic, sans-serif;
+  width: 505px;
+  margin: 38px 54px; }
+
+.galeria {
+  text-align: center;
+  position: relative;
+  bottom: 310px; }
+
+.footer {
+  background-color: #664735;
+  height: 225px;
+  margin-bottom: 100px;
+  width: 1280px;
+  margin: 0 auto; }
+
+.allInfo {
+  width: 236px;
+  display: inline-block;
+  vertical-align: text-top;
+  position: relative;
+  left: 163px;
+  top: 48px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  color: #9d9c9d;
+  text-transform: uppercase;
+  font: 18px Myriad Pro, italic, sans-serif; }
+
+h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Myriad Pro, italic, sans-serif; }
+
+p {
+  color: #b5b4b5;
+  font: 13px Myriad Pro, italic, sans-serif; }
+
+.logo {
+  position: relative;
+  left: 118px;
+  bottom: 51px; }
+
+.casa {
+  height: 14px; }
+
+.flechaI {
+  position: relative;
+  right: 298px;
+  top: 108px; }
+
+.flechaD {
+  position: relative;
+  left: 718px;
+  top: 108px; }
+
+.puntos {
+  position: relative;
+  left: 154px;
+  top: 248px; }
+
+.granosCafe {
+  position: relative;
+  left: 650px;
+  top: 175px; }
+
+.circle {
+  position: relative;
+  left: 751px;
+  top: 98px; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  display: flex; }
+
+.redondo {
+  border-radius: 34px 0px 0px 34px; }
+
+.redondo1 {
+  border-radius: 0px 34px 34px 0px; }
+
+.header li {
+  display: inline;
+  list-style: none;
+  font: 10px Myriad Pro, italic, sans-serif; }
+
+.infoHeader a {
+  color: #9d9c9d; }
+
+.menu a {
+  color: #b5b4b5; }
+
+.infoSalud a {
+  color: #664735;
+  font-size: 12px; }
+
+.menu button {
+  background-color: #f4f4f4;
+  border: 1px gray;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 12px 24px;
+  position: relative;
+  left: 650px;
+  bottom: 110px; }
+
+.botonU {
+  border-radius: 6px;
+  padding: 9px 15px;
+  margin: 5px 67px; }
+
+.circle {
+  float: left;
+  position: relative;
+  top: 266px;
+  left: 600px; }
+
+/*# sourceMappingURL=style.css.map */
