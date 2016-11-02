@@ -1,0 +1,63 @@
+.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+}
+.header {
+	border-top: 10px solid $primary-color;
+	background-color:$secondary-color;
+	height: 426px;
+}
+.infoHeader {
+	width: 415px;
+	height: 115px;
+	position: relative;
+    left: 206px;
+}
+
+.infoSalud {
+	text-align: center;
+	width:  336px;
+	display: inline-block;
+    margin: 106px 0px 140px 73px;
+}
+.infoU {
+	background-color: $primary-color;
+    width: 630px;
+    height: 411px;
+    position: relative;
+    left: 649px;
+    bottom: 415px;
+}
+.infoU h3 {
+	margin: 0px 55px;
+}
+.infoU p {
+	color: #fff;
+	font: 16px $primary-font;
+	width: 505px;
+    margin: 38px 54px;
+}
+.galeria {
+	text-align: center;
+	position: relative;
+    bottom: 310px;
+}
+.footer {
+	background-color: $primary-color;
+    height: 225px;
+    margin-bottom: 100px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.allInfo {
+	width:  236px;
+	display: inline-block;
+	vertical-align: text-top;
+	position: relative;
+    left: 163px;
+    top: 48px;
+}
+
+
+
