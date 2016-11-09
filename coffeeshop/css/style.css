@@ -1,5 +1,5 @@
 .wrapper {
-  width: 1280px;
+  width: 82.5%;
   margin: 0 auto; }
 
 .header {
@@ -8,48 +8,49 @@
   height: 426px; }
 
 .infoHeader {
-  width: 415px;
+  width: 17%;
   height: 115px;
   position: relative;
   left: 206px; }
 
 .infoSalud {
   text-align: center;
-  width: 336px;
+  width: 26%;
   display: inline-block;
   margin: 106px 0px 140px 73px; }
 
 .infoU {
   background-color: #664735;
-  width: 630px;
+  width: 58.7%;
   height: 411px;
   position: relative;
-  left: 649px;
+  left: 41.2%;
   bottom: 415px; }
 
 .infoU h3 {
-  margin: 0px 55px; }
+  margin: 0px 4.29%; }
 
 .infoU p {
   color: #fff;
   font: 16px Myriad Pro, italic, sans-serif;
-  width: 505px;
-  margin: 38px 54px; }
+  width:  80%;
+  margin: 5% 5%; }
 
 .galeria {
   text-align: center;
   position: relative;
+  width: 82.5%;
   bottom: 310px; }
 
 .footer {
   background-color: #664735;
   height: 225px;
   margin-bottom: 100px;
-  width: 1280px;
+  width: 82.5%;
   margin: 0 auto; }
 
 .allInfo {
-  width: 236px;
+  width: 18.4375%;
   display: inline-block;
   vertical-align: text-top;
   position: relative;
@@ -76,36 +77,40 @@ p {
 
 .logo {
   position: relative;
-  left: 118px;
-  bottom: 51px; }
+  left: 7.5%;
+  bottom: 20%; }
 
 .casa {
   height: 14px; }
 
 .flechaI {
   position: relative;
-  right: 298px;
+  right: 20%;
   top: 108px; }
 
 .flechaD {
   position: relative;
-  left: 718px;
-  top: 108px; }
+  left: 48%;
+  top: 107px; }
 
 .puntos {
   position: relative;
-  left: 154px;
+  left: 20%;
   top: 248px; }
 
 .granosCafe {
   position: relative;
-  left: 650px;
+  left: 45%;
   top: 175px; }
 
 .circle {
   position: relative;
-  left: 751px;
+  left: 50%;
   top: 98px; }
+
+.cup.Big {
+    width: 20%;
+}
 
 a {
   text-decoration: none; }
@@ -147,14 +152,15 @@ ul {
   bottom: 110px; }
 
 .botonU {
-  border-radius: 6px;
+  border-radius: 0.46%;
   padding: 9px 15px;
-  margin: 5px 67px; }
+  margin: 1% 5%;
+ }
 
 .circle {
   float: left;
   position: relative;
   top: 266px;
-  left: 600px; }
+  left: 50%; }
 
 /*# sourceMappingURL=style.css.map */

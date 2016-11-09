@@ -1,5 +1,5 @@
 .wrapper {
-	width: 1280px;
+	width: 82.5%;
 	margin: 0 auto;
 }
 .header {
@@ -8,7 +8,7 @@
 	height: 426px;
 }
 .infoHeader {
-	width: 415px;
+	width: 17%;
 	height: 115px;
 	position: relative;
     left: 206px;
@@ -16,16 +16,16 @@
 
 .infoSalud {
 	text-align: center;
-	width:  336px;
+	width: 26%;
 	display: inline-block;
     margin: 106px 0px 140px 73px;
 }
 .infoU {
 	background-color: $primary-color;
-    width: 630px;
+    width: 58.7%;
     height: 411px;
     position: relative;
-    left: 649px;
+    left: 41.2%;
     bottom: 415px;
 }
 .infoU h3 {
@@ -34,24 +34,25 @@
 .infoU p {
 	color: #fff;
 	font: 16px $primary-font;
-	width: 505px;
-    margin: 38px 54px;
+	width:  80%;
+    margin: 5% 5%;
 }
 .galeria {
 	text-align: center;
 	position: relative;
+	width82.5%;
     bottom: 310px;
 }
 .footer {
 	background-color: $primary-color;
     height: 225px;
     margin-bottom: 100px;
-    width: 1280px;
+    width: 82.5%;
     margin: 0 auto;
 }
 
 .allInfo {
-	width:  236px;
+	width:  18.4375%;
 	display: inline-block;
 	vertical-align: text-top;
 	position: relative;
