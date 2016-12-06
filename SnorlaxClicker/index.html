@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pokemon Clicker</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+</head>
+<body>
+	<div class="content">
+		<div class="wrapper">
+			<header>
+				<h2 class="test">Snorlax Eat</h2>
+			</header>
+			<div class="life">
+				<h2 class="styles">Game time</h2>
+				<h2 id="chronometer"></h2>
+
+				<h2 class="styles">Apples:</h2>
+				<h2 class="styles" id="score">0</h2>
+
+				<h2 class="styles">Clicks per Second:</h2>
+				<h2 class="styles" id="applesPers">0</h2>
+
+				<h2 class="styles">Score Devoured Apples:</h2>
+				<h2 class="styles" id="applesTotal">0</h2>
+
+				<input type="button" value="Safe" id="safe">
+
+			</div>
+
+			<div class="photos">
+				<img src="img/snolax.png" alt="Snorlax" id="snorlax">
+				<img src="img/apple.png" alt="Apple" id="little">
+			</div>
+
+			<div class="gifts">
+				<h2 class="styles">Fattening Snorlax</h2>
+				<h3 class="styles">Store</h3>
+				<input type="button" id="perClicks" value="AutoClick per Second 20">
+
+				<input type="button" id="upgradClick" class="buttons-upgrades" value="AutoClick Click 100">
+				<input type="button" id="secondClickUp" class="buttons-upgrades" value="AutoClick Click 500">
+
+				<input type="button" id="trainer" value="Trainer 80">
+				<input type="button" id="upgradTrainer" class="buttons-upgrades" value="Trainer 600">
+				<input type="button" id="secondTrainerUp" class="buttons-upgrades" value="Trainer 1200">
+
+				<input type="button" id="town" value="Town 240">
+				<input type="button" id="upgradTown" class="buttons-upgrades" value="Town 600">
+				<input type="button" id="secondTownUp" class="buttons-upgrades" value="Town 1200">
+
+				<input type="button" id="city" value="City 640">
+				<input type="button" id="upgradCity" class="buttons-upgrades" value="City 600">
+				<input type="button" id="secondCityUp" class="buttons-upgrades" value="City 1200">
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

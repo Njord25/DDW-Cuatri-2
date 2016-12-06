@@ -1,0 +1,131 @@
+/*------GENERAL-------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: white;
+}
+
+header{
+	margin-bottom: 80px;
+	padding: 5px;
+	text-align: center;
+}
+
+input{
+	background-color: #9BC53D;
+    border: 1px solid white;
+    border-radius: 100px;
+		box-shadow: 0px 1px 0px 0px #FDE74C;
+    color: white;
+		display:inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+		margin: 10px;
+    padding: 25px 15px;
+    width: 84%;
+}
+
+h2{
+	color: #E55934;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-weight: lighter;
+	font-size: 4em;
+	padding:10px;
+}
+
+.styles{
+	color: #424B54;
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+
+.content{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+/*------LIFE-------*/
+.life{
+	border: 2px dotted #85EAF7;
+	width: 20%;
+	margin-top: 110px;
+	position: absolute;
+	top: 10px;
+	right: 435px;
+
+}
+
+/*------Snorlax-------*/
+.photos{
+	text-align: center;
+	width: 40%;
+}
+
+#snorlax {
+	margin-top: 110px;
+	position: absolute;
+	top: 30px;
+	left: 300px;
+}
+
+#little {
+    float: right;
+    display: none;
+    position: absolute;
+}
+
+/*------regalos-------*/
+.gifts{
+	border: 2px dotted #85EAF7;
+	margin-top: 110px;
+	position: absolute;
+	top: 10px;
+	right: 90px;
+	width: 20%;
+}
+
+.buttons-upgrades {
+	display: none;
+	background-color: #336466;
+}
+
+/*------tiempo-------*/
+.active-class {
+	background-color: #d96057;
+}
+
+.active-upgrades {
+	background-color: #70bdc5;
+}
+
+#info {
+	background-color: #9c4b3e;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family:'Geo', sans-serif;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 250px;
+    right: 950px;
+    display: none;
+}
+/*--------------------------------------------BOTONSTART--------------------------------------------*/
+#pokeSnorlax {
+	text-align: center;
+}
+
+#timer img{
+	padding: 350px;
+}
